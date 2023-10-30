@@ -1,0 +1,72 @@
+/* Add custom styles for the card container */
+.card-container {
+    margin: 2rem auto;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add custom styles for the upload button */
+#uploadButton {
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 10px;
+    padding: 4px 10px;
+    display: block; /* Make the button a block element for better spacing */
+    width: 100%; /* Make the button full width within the container */
+}
+
+/* Add custom styles for the uploadStatus message */
+#uploadStatus {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Chat box styles */
+#chatBox {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #cc6f6f;
+}
+
+#chatBox .card-body {
+    background-color: bisque;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+#chatMessages > div {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#chatMessages > div.System {
+    background-color: #333;
+}
+
+/* Message input */
+.input-group {
+    margin-top: 10px;
+}
+
+#messageInput {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Send and Process PDF Button Styles */
+#sendMessageButton,
+#processPdfButton {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: inline-block;
+}
