@@ -22,6 +22,31 @@
   },
   "devDependencies": {
     "@types/pdfjs-dist": "^2.10.378"
-    
+  "name": "askyourdocument",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikherjaitly/AskYourDocument.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikherjaitly/AskYourDocument/issues"
+  },
+  "homepage": "https://github.com/shikherjaitly/AskYourDocument#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
