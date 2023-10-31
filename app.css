@@ -1,0 +1,90 @@
+
+/* Add custom styles for the card container */
+.card-container {
+    margin-top: 2rem;
+}
+
+/* Add custom styles for the upload button */
+#uploadButton {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Add custom styles for the uploadStatus message */
+#uploadStatus {
+    font-weight: bold;
+}
+
+/* Progress bar styles */
+
+  
+  #progressBar {
+    width: 0;
+    transition: width 0.5s ease-in-out,background-color 0.5s ease-in-out;
+    background-color: #ffc107; /* Initial color (yellow) */
+}
+
+
+#chatBox {
+    margin-top: 20px;
+    border: 1px solid  #000000f9;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#00000019;
+    min-height: max-content;
+}
+
+#chatBox .card-body {
+    background-color: rgb(255, 255, 255);
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+#chatMessages > div {
+    background-color: #000000c8;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#chatMessages > div.System {
+    background-color: #333;
+}
+
+/* Message input */
+.input-group {
+    margin-top: 10px;
+}
+
+#messageInput {
+    margin-top: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 4px;
+    padding: 10px;
+}
+
+/* Send and Process PDF Button Styles */
+
+#processPdfButton {
+ 
+    font-size: 12px;
+    padding: 10px;
+   
+}
+#sendMessageButton{
+    font-size: 12px;
+    padding: 10px ;
+    display: flex;
+}
+/* Style for the PDF container */
+#pdfContainer {
+    margin: 20px;
+  }
+  
+  /* Style for each PDF page */
+  .pdfPage {
+    margin-bottom: 10px;
+  }
